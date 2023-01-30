@@ -12,7 +12,7 @@ from os.path import dirname, abspath
 import sys
 sys.path.insert(1, dirname(abspath(__file__)))
 from sutime import SUTime
-import DateTimeExtraction.python_duckling_master.duckling as duckling
+import DateTimeExtraction.duckling.duckling as duckling
 import json
 import time
 from datetime import datetime, timedelta
